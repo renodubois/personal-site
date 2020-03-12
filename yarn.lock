@@ -11378,6 +11378,16 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-arbutus-slab@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-arbutus-slab/-/typeface-arbutus-slab-0.0.72.tgz#45365b71368268fd9f7dfb821dbb8c5ef3c74bca"
+  integrity sha512-7FpvcmDHTRTvtaroHB200iU2Fp6zJZA8nxcJY4rhtW94AKniD+ZDybfBtkyU6ACFAe4/uOuTiTDHzf+Z4kMWlA==
+
+typeface-raleway@^0.0.75:
+  version "0.0.75"
+  resolved "https://registry.yarnpkg.com/typeface-raleway/-/typeface-raleway-0.0.75.tgz#cc79688aa3175452744ecd19540b54dad153e8f3"
+  integrity sha512-mUvT/klCTGA2HporaIMNY3ap45YxBErxFv/1pv82LhbFdNc3m+6ddfoexP6xxwMZ5yZ2VmDhMqk1yikDEoxU/Q==
+
 ua-parser-js@^0.7.18:
   version "0.7.21"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.21.tgz#853cf9ce93f642f67174273cc34565ae6f308777"
