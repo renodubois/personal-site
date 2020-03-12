@@ -32,9 +32,9 @@ const IndexPage = () => (
     </div>
     <p>
       Currently, I'm building <Link to="/blog">Tabltop</Link>, a board game
-      social network. I also{" "}
-      <Link to="/videos">stream live coding on Twitch</Link>, working on either
-      Tabltop or small projects.
+      social media app.
+      <br />I also <Link to="/videos">stream live coding on Twitch</Link>,
+      working on either Tabltop or small projects.
       <br />
       <br />
       <span style={{ fontWeight: "bold", fontSize: 18 }}>
