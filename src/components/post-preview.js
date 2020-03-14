@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const PostPreview = ({ id, date, title, previewText }) => {
   return (
     <article>
-      <h2>
+      <h3>
         <Link to={`/blog/${id}`}>{title}</Link>
         <span style={{ margin: 10 }}>&bull;</span>
         <span
@@ -16,7 +16,7 @@ const PostPreview = ({ id, date, title, previewText }) => {
         >
           {date}
         </span>
-      </h2>
+      </h3>
 
       <p style={{ fontStyle: "italic", fontSize: 20 }}>{previewText}</p>
     </article>
