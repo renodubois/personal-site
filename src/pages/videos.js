@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -21,6 +20,7 @@ const VideosPage = () => {
           </p>
         </div>
         <iframe
+          title="An embed of my Twitch channel, RenoInMO"
           src="https://player.twitch.tv/?channel=renoinmo&enableExtensions=true&muted=true&player=popout&volume=1"
           style={{ flex: 1, height: "14em" }}
         />
