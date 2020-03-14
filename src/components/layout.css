@@ -621,3 +621,7 @@ button {
   padding: 10px;
   border-radius: 4px;
 }
+
+h2 > a {
+  text-decoration: underline;
+}
