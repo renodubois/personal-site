@@ -5,9 +5,7 @@ const PostPreview = ({ id, date, title, previewText }) => {
   return (
     <article>
       <h2>
-        <Link to={`/blog/${id}`} style={{ textDecoration: "underline" }}>
-          {title}
-        </Link>
+        <Link to={`/blog/${id}`}>{title}</Link>
         <span style={{ margin: 10 }}>&bull;</span>
         <span
           style={{

@@ -30,7 +30,7 @@ const IndexPage = () => (
         </h3>
       </div>
     </div>
-    <p>
+    <p style={{ lineHeight: "36px" }}>
       Currently, I'm building <Link to="/blog">Tabltop</Link>, a board game
       social media app.
       <br />I also <Link to="/videos">stream live coding on Twitch</Link>,
