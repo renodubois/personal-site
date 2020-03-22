@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const PostPreview = ({ id, date, title, previewText }) => {
+const PostPreview = ({ path, date, title, previewText }) => {
   return (
     <article>
       <h3>
-        <Link to={`/blog/${id}`}>{title}</Link>
+        <Link to={`${path}`}>{title}</Link>
         <span style={{ margin: 10 }}>&bull;</span>
         <span
           style={{
