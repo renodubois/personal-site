@@ -10,7 +10,7 @@ const NewsletterForm = () => {
     <form
       onSubmit={async event => {
         event.preventDefault()
-        const response = await fetch("/newsletter/signup", {
+        const response = await fetch("api.renodubois.com/newsletter/signup", {
           headers: {
             Accept: "application/json",
             "Content-Type": "application/json",
