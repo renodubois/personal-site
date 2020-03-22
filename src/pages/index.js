@@ -4,19 +4,11 @@ import Image from "../components/image"
 import Layout from "../components/layout"
 import PostPreview from "../components/post-preview"
 import SEO from "../components/seo"
-
-const recentPosts = [
-  {
-    id: 1,
-    title: "Building Tabltop: Intro",
-    date: "12 March 2020",
-    previewText:
-      "Going over my newest project, the tech stack, and how you can stay up to date on the progress.",
-  },
-]
+import { filterBlogPosts } from "../utils"
 
 const IndexPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
+  const filteredPosts = filterBlogPosts(posts)
   return (
     <Layout>
       <SEO title="Home" />
@@ -64,17 +56,15 @@ const IndexPage = ({ data }) => {
         </a>
       </div>
       <section style={{ marginTop: 150 }}>
-        {posts
-          .filter(post => post.node.frontmatter.title.length > 0)
-          .map(({ node: post }) => (
-            <PostPreview
-              key={post.id}
-              date={post.frontmatter.date}
-              path={post.frontmatter.path}
-              previewText={post.excerpt}
-              title={post.frontmatter.title}
-            />
-          ))}
+        {filteredPosts.map(({ node: post }) => (
+          <PostPreview
+            key={post.id}
+            date={post.frontmatter.date}
+            path={post.frontmatter.path}
+            previewText={post.excerpt}
+            title={post.frontmatter.title}
+          />
+        ))}
       </section>
     </Layout>
   )
@@ -82,4 +72,24 @@ const IndexPage = ({ data }) => {
 
 export default IndexPage
 
-export const pageQuery = getAllBlogPosts(10)
+export const pageQuery = graphql`
+  query IndexQuery {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 10
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 250)
+          id
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            path
+            draft
+          }
+        }
+      }
+    }
+  }
+`
