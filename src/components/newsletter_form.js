@@ -10,14 +10,19 @@ const NewsletterForm = () => {
     <form
       onSubmit={async event => {
         event.preventDefault()
-        const response = await fetch("api.renodubois.com/newsletter/signup", {
-          headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
-          },
-          method: "POST",
-          body: JSON.stringify({ email: event.target.elements["email"].value }),
-        })
+        const response = await fetch(
+          "https://api.renodubois.com/newsletter/signup",
+          {
+            headers: {
+              Accept: "application/json",
+              "Content-Type": "application/json",
+            },
+            method: "POST",
+            body: JSON.stringify({
+              email: event.target.elements["email"].value,
+            }),
+          }
+        )
         const body = await response.json()
         if (body.success) {
           setFormResponse({
