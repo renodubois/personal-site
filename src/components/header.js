@@ -42,14 +42,14 @@ const Header = ({ siteTitle }) => (
       >
         videos
       </Link>
-      <Link
+      {/* <Link
         to="/newsletter"
         style={{
           textDecoration: `none`,
         }}
       >
         newsletter
-      </Link>
+      </Link> */}
     </div>
   </header>
 )
