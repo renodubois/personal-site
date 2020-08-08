@@ -20,10 +20,11 @@ const VideosPage = () => {
           </p>
         </div>
         <iframe
-          title="An embed of my Twitch channel, RenoInMO"
-          src="https://player.twitch.tv/?channel=renoinmo&enableExtensions=true&muted=true&player=popout&volume=1"
-          style={{ flex: 1, height: "14em" }}
-        />
+          src="https://player.twitch.tv/?channel=renoinmo&muted=true&parent=www.renodubois.com"
+          frameborder="0"
+          scrolling="no"
+          allowFullscreen="true"
+        ></iframe>
       </div>
       <div style={{ display: "flex" }}>
         <div style={{ flex: 1 }}>
