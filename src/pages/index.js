@@ -40,22 +40,28 @@ const IndexPage = ({ data }) => {
         style={{
           display: "flex",
           width: "60%",
-          justifyContent: "space-between",
+          // justifyContent: "space-around",
           marginTop: 10,
         }}
       >
-        <Link to="/newsletter">
+        {/* <Link to="/newsletter">
           <button style={{ backgroundColor: "#2ecc71", color: "#ffffff" }}>
             Join My Newsletter
           </button>
-        </Link>
-        <a href="https://twitter.com/RenoInMO">
+        </Link> */}
+        <a href="https://twitter.com/RenoInMO" style={{ paddingRight: 40}}>
           <button style={{ backgroundColor: "#55acee", color: "#ffffff" }}>
-            Follow Me On Twitter
+            Twitter Feed
+          </button>
+        </a>
+        <a href="https://twitch.tv/RenoInMO">
+          <button style={{ backgroundColor: "#8400ff", color: "#ffffff" }}>
+            Twitch Livestreams
           </button>
         </a>
       </div>
       <section style={{ marginTop: 150 }}>
+        <h2>Recent Blog Posts</h2>
         {filteredPosts.map(({ node: post }) => (
           <PostPreview
             key={post.id}
