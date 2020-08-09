@@ -24,6 +24,7 @@ const VideosPage = () => {
           frameborder="0"
           scrolling="no"
           allowFullscreen="true"
+          title="RenoInMO's Twitch Channel"
         ></iframe>
       </div>
       <div style={{ display: "flex" }}>
