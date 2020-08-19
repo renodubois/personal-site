@@ -1,0 +1,278 @@
+[
+  {
+    "parkURL": "https://www.mostateparks.com/park/dr-edmund-babler-memorial-state-park",
+    "name": "Dr. Edmund A. Babler Memorial ",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/sam-baker-state-park",
+    "name": "Sam A. Baker",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/bennett-spring-state-park",
+    "name": "Bennett Spring",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/big-lake-state-park",
+    "name": "Big Lake",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/big-oak-tree-state-park",
+    "name": "Big Oak Tree",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/big-sugar-creek-state-park",
+    "name": "Big Sugar Creek",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/bryant-creek-state-park",
+    "name": "Bryant Creek",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/castlewood-state-park",
+    "name": "Castlewood",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/edward-ted-and-pat-jones-confluence-point-state-park",
+    "name": "Edward \"Ted\" and Pat Jones – Confluence Point",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/crowder-state-park",
+    "name": "Crowder",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/cuivre-river-state-park",
+    "name": "Cuivre River",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/current-river-state-park",
+    "name": "Current River",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/echo-bluff-state-park",
+    "name": "Echo Bluff",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/elephant-rocks-state-park",
+    "name": "Elephant Rocks",
+    "visited": true,
+    "firstVisit": "July 23rd, 2020"
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/eleven-point-state-park",
+    "name": "Eleven Point",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/finger-lakes-state-park",
+    "name": "Finger Lakes",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/graham-cave-state-park",
+    "name": "Graham Cave",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/grand-gulf-state-park",
+    "name": "Grand Gulf",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/ha-ha-tonka-state-park",
+    "name": "Ha Ha Tonka",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/hawn-state-park",
+    "name": "Hawn",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/johnsons-shut-ins-state-park",
+    "name": "Johnson's Shut-Ins",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/katy-trail-state-park",
+    "name": "Katy Trail",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/knob-noster-state-park",
+    "name": "Knob Noster",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/lake-ozarks-state-park",
+    "name": "Lake of the Ozarks",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/lake-wappapello-state-park",
+    "name": "Lake Wappapello",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/lewis-and-clark-state-park",
+    "name": "Lewis and Clark",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/long-branch-state-park",
+    "name": "Long Branch",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/meramec-state-park",
+    "name": "Meramec",
+    "visited": true
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/montauk-state-park",
+    "name": "Montauk",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/morris-state-park",
+    "name": "Morris",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/onondaga-cave-state-park",
+    "name": "Onondaga Cave",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/ozark-mountain-state-park",
+    "name": "Ozark Mountain",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/pershing-state-park",
+    "name": "Pershing",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/pomme-de-terre-state-park",
+    "name": "Pomme de Terre",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/prairie-state-park",
+    "name": "Prairie",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/roaring-river-state-park",
+    "name": "Roaring River",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/robertsville-state-park",
+    "name": "Robertsville",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/don-robinson-state-park",
+    "name": "Don Robinson",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/rock-bridge-memorial-state-park",
+    "name": "Rock Bridge Memorial",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/route-66-state-park",
+    "name": "Route 66",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/st-francois-state-park",
+    "name": "St. Francois",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/st-joe-state-park",
+    "name": "St. Joe",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/stockton-state-park",
+    "name": "Stockton",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/table-rock-state-park",
+    "name": "Table Rock",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/taum-sauk-mountain-state-park",
+    "name": "Taum Sauk Mountain",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/thousand-hills-state-park",
+    "name": "Thousand Hills",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/trail-tears-state-park",
+    "name": "Trail of Tears",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/harry-s-truman-state-park",
+    "name": "Harry S Truman",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/mark-twain-state-park",
+    "name": "Mark Twain",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/annie-and-abel-van-meter-state-park",
+    "name": "Annie and Abel Van Meter",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/wakonda-state-park",
+    "name": "Wakonda",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/wallace-state-park",
+    "name": "Wallace",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/washington-state-park",
+    "name": "Washington",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/watkins-mill-state-park",
+    "name": "Watkins Mill",
+    "visited": false
+  },
+  {
+    "parkURL": "https://www.mostateparks.com/park/weston-bend-state-park",
+    "name": "Weston Bend",
+    "visited": false
+  }
+]
